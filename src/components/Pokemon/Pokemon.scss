@@ -1,0 +1,17 @@
+// @keyframes spin {
+//   0% {
+//     -webkit-transform: rotate(0deg);
+//   }
+//   100% {
+//     -webkit-transform: rotate(359deg);
+//   }
+// }
+
+.Pokemon {
+  transition: transform 0.2s ease;
+}
+.Pokemon:hover {
+  transform: scale(1.02) translate(0, -3px) rotate(2deg);
+  // transform: scale(1.02) translate(0, -3px);
+  // animation: spin 20s infinite linear;
+}
